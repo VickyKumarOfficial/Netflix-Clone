@@ -3,38 +3,27 @@
     margin: 0;
 }
 
-.main {
+.main{
+    height: 90vh;
     background-image: url("Assets/Images/bg.jpg");
-    height: 80vh;
-    position: relative;
-    background-size: max(1200, 100vw);
-    background-position: center;
-    width: 100%;
-}
-
-.main .box {
-    height: 80vh;
-    width: 100%;
-    opacity: 0.54;
-    background-color: black;
-    position: absolute;
-    top: 0;
-}
-
-nav {
-    max-width: 85vw;
-    margin: auto;
-    /*This makes dynamic nav bar*/
-    /* background-color: red; */
-    display: flex;
-    justify-content: space-around;
-    height: 90px;
-    gap: 43rem;
-    align-items: center;
-}
-
-nav .logo{
-    position: relative;
-    z-index: 1;
     
+    position: relative;
+}
+
+.main .box{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    position: absolute;
+}
+
+nav{
+    display: flex;
+    height: 60px;
+    max-width: 80vw;
+    margin: auto; /* Dynamic nav bar with max-width auto margin*/
+    justify-content: space-between;
+    align-items: center;
 }
