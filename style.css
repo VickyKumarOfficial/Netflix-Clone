@@ -4,17 +4,18 @@
 }
 
 .main{
-    height: 90vh;
+    height: 100vh;
     background-image: url("Assets/Images/bg.jpg");
-    
+    background-position: center; 
+    background-size: max(1200px, 100vw);
     position: relative;
 }
 
 .main .box{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.6;
     top: 0;
     position: absolute;
 }
@@ -26,4 +27,57 @@ nav{
     margin: auto; /* Dynamic nav bar with max-width auto margin*/
     justify-content: space-between;
     align-items: center;
+}
+
+nav .logo{
+    margin-top: 20px;
+    width: 148px;
+    position: relative;
+    z-index: 1;
+    color: #e50914;
+}
+
+nav .buttons{
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.main .content{
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 130px;
+}
+
+/* .content-scond-line{
+    display: block;
+    justify-content: center;
+    align-items: center;
+} */
+
+h1{
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.main .para{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -95px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -165px;
 }
