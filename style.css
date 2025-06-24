@@ -212,20 +212,6 @@ h3 {
     margin-left: 11.5rem;
 }
 
-.feature-cards ol .card-one {
-    width: 255px;
-    height: 318px;
-    background: linear-gradient(145deg, #202951, #311724);
-    border-radius: 18px;
-    position: relative;
-}
-
-.small-tv-icon {
-    position: absolute;
-    bottom: 12px;
-    right: 15px;
-}
-
 .feature-cards ol .card-content p {
     max-width: 200px;
     padding-left: 15px;
@@ -234,12 +220,25 @@ h3 {
     line-height: 19px;
 }
 
+.feature-cards ol .card-one{ 
+    width: 255px;
+    height: 318px;
+    background: linear-gradient(145deg, #202951, #311724);
+    border-radius: 18px;
+    position: relative;
+}
+
 .feature-cards ol .card-one h3 {
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 600;
     padding-top: 20px;
     padding-left: 15px;
+}
+.feature-cards ol .card-one .small-tv-icon {
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
 }
 
 .feature-cards ol .card-two {
@@ -259,6 +258,50 @@ h3 {
 }
 
 .feature-cards ol .card-two .small-dwd-icon {
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+}
+
+.feature-cards .card-three {
+    width: 255px;
+    height: 318px;
+    background: linear-gradient(145deg, #202951, #311724);
+    border-radius: 18px;
+    position: relative;
+}
+
+.feature-cards .card-three h3{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.feature-cards .card-three .small-telescope-icon {
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+} 
+
+.feature-cards .card-four {
+    width: 255px;
+    height: 318px;
+    background: linear-gradient(145deg, #202951, #311724);
+    border-radius: 18px;
+    position: relative;
+}
+
+.feature-cards .card-four h3 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.feature-cards .card-four .small-squares-icon {
     position: absolute;
     bottom: 12px;
     right: 15px;
