@@ -65,7 +65,7 @@ nav .buttons {
 
 .buttons .lang-btn {
     background-color: rgba(25, 25, 25, 0.734);
-    border: 0.1px #6f6f6f;
+    border: 1px solid #6f6f6f;
     color: #ffffff;
     font-size: 15px;
     font-family: sans-serif;
@@ -212,6 +212,14 @@ h1 {
     margin-left: 10rem;
 }
 
+.feature-cards ol h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    max-width: 200px;
+    padding-left: 15px;
+}
+
 .feature-cards ol .card-content p {
     max-width: 200px;
     padding-left: 15px;
@@ -228,13 +236,6 @@ h1 {
     position: relative;
 }
 
-.feature-cards ol .card-one h3 {
-    color: #ffffff;
-    font-size: 1.5rem;
-    padding-top: 30px;
-    max-width: 200px;
-    padding-left: 15px;
-}
 .feature-cards ol .card-one .small-tv-icon {
     position: absolute;
     bottom: 12px;
@@ -247,14 +248,6 @@ h1 {
     background: linear-gradient(145deg, #202951, #311724);
     border-radius: 18px;
     position: relative;
-}
-
-.feature-cards ol .card-two h3 {
-    color: #ffffff;
-    max-width: 200px;
-    font-size: 1.5rem;
-    padding-top: 30px;
-    padding-left: 15px;
 }
 
 .feature-cards ol .card-two .small-dwd-icon {
@@ -271,14 +264,6 @@ h1 {
     position: relative;
 }
 
-.feature-cards .card-three h3{
-    color: #ffffff;
-    font-size: 1.5rem;
-    max-width: 200px;
-    padding-top: 30px;
-    padding-left: 15px;
-}
-
 .feature-cards .card-three .small-telescope-icon {
     position: absolute;
     bottom: 12px;
@@ -291,14 +276,6 @@ h1 {
     background: linear-gradient(145deg, #202951, #311724);
     border-radius: 18px;
     position: relative;
-}
-
-.feature-cards .card-four h3 {
-    color: #ffffff;
-    max-width: 200px;
-    font-size: 1.5rem;
-    padding-top: 30px;
-    padding-left: 15px;
 }
 
 .feature-cards .card-four .small-squares-icon {
@@ -314,9 +291,15 @@ h1 {
     margin-bottom: 8px;
     color: #ffffff;
     font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.faq ol li .faq-one:hover{
+    background-color: #4b4b4b;
 }
 
 .faq ol li .faq-one {
+    transition: all 1s ease-out;
     background-color: #2d2d2d;
     display: flex;
     justify-content: space-around;
@@ -325,6 +308,7 @@ h1 {
     padding: 1.5rem;
 }
 .faq ol li .faq-two {
+    transition: all 1s ease-out;
     background-color: #2d2d2d;
     display: flex;
     justify-content: space-around;
@@ -333,6 +317,7 @@ h1 {
     padding: 1.5rem;
 }
 .faq ol li .faq-three {
+    transition: all 1s ease-out;
     background-color: #2d2d2d;
     display: flex;
     justify-content: space-around;
@@ -341,6 +326,7 @@ h1 {
     padding: 1.5rem;
 }
 .faq ol li .faq-four {
+    transition: all 1s ease-out;
     background-color: #2d2d2d;
     display: flex;
     justify-content: space-around;
@@ -349,6 +335,7 @@ h1 {
     padding: 1.5rem;
 }
 .faq ol li .faq-five {
+    transition: all 1s ease-out;
     background-color: #2d2d2d;
     display: flex;
     justify-content: space-around;
@@ -357,6 +344,7 @@ h1 {
     padding: 1.5rem;
 }
 .faq ol li .faq-six {
+    transition: all 1s ease-out;
     background-color: #2d2d2d;
     display: flex;
     justify-content: space-around;
@@ -416,17 +404,61 @@ h1 {
     left: 160px;
 }
 
+footer {
+    max-width: 76.5vw;
+    margin: auto;
+}
+
+footer .call-section a{
+    color: #a8b3a8;
+}
+
+footer .call-section {
+    color: #a8b3a8;
+}
+
 .footer {
-    margin-left: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 3rem;
 }
 
-.footer .call-section {
-    color: #acacac;
+.footer .footer-links ul li a{
+    text-decoration: underline;
+    color: #a8b3a8;
+    line-height: 2rem;
+    font-size: 14px;
+}
+
+.lang-option {
+    font-size: 0.7rem;
+}
+.buttons .lang-button {
+    margin-top: 3rem;
+    background-color: rgba(25, 25, 25, 0.66);
+    border: 1px solid #6f6f6fb1;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: sans-serif;
+    /* font-weight: 600; */
+    width: 8rem;
+    border-radius: 3px;
+    padding: 0.4rem;
+}
+
+footer .netflix-india {
+    margin-top: 3rem;
     font-weight: 600;
+    font-size: 14px;
+    color: #a8b3a8;
+    margin-bottom: 2rem;
 }
 
-.footer .call-section a{
-    color: #acacac;
-    font-weight: 600;
+footer .pg-end {
+    font-size: 13px;
+    color: #9e9e9e;
 }
 
+footer .pg-end a {
+    color: #448ef4;
+}
